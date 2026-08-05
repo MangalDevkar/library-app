@@ -1,0 +1,114 @@
+/* App.css - Main Application Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #3b82f6;
+  --secondary-color: #1e40af;
+  --success-color: #10b981;
+  --danger-color: #ef4444;
+  --warning-color: #f59e0b;
+  --dark-color: #1f2937;
+  --light-color: #f3f4f6;
+  --gray-color: #9ca3af;
+  --border-radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: var(--dark-color);
+  line-height: 1.6;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* General Styling */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--dark-color);
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  background-color: var(--primary-color);
+  color: white;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
