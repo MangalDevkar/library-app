@@ -1,3 +1,11 @@
+/*
+  Online Library System
+  Package Configuration
+  Dependencies: React, Vite, Redux, React Router
+  Build Tool: Vite
+  State Management: Redux Toolkit
+*/
+
 {
   "name": "library-app",
   "private": true,
