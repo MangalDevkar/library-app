@@ -1,3 +1,11 @@
+/**
+ * Header Component
+ * Navigation bar with links to Home, Browse Books, and Add Book pages
+ * Includes logo and responsive design
+ * Sticky positioning keeps it visible while scrolling
+ */
+
+
 import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 
