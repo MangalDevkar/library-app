@@ -1,3 +1,10 @@
+/**
+ * Add Book Component
+ * Form for adding new books to the library
+ * Includes form validation and Redux integration
+ * Redirects to browse page after successful submission
+ */
+
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
