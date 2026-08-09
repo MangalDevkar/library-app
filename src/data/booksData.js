@@ -1,4 +1,13 @@
+/**
+ * Books Database
+ * Contains dummy data for 12 books across 4 categories
+ * Used for initial app testing and demonstration
+ * Categories: Fiction, Non-Fiction, Sci-Fi, Mystery
+ */
+
 // Dummy books data with 12 books across 4 categories
+
+
 export const initialBooks = [
   // Fiction Books
   {
