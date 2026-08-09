@@ -1,3 +1,10 @@
+/**
+ * Browse Books Component
+ * Displays all books with category filtering and search functionality
+ * Supports dynamic routing by category parameter
+ * Implements Redux-based filtering and search
+ */
+
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
