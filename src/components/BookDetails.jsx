@@ -1,3 +1,10 @@
+/**
+ * Book Details Component
+ * Displays full information about a selected book
+ * Uses dynamic routing with book ID parameter
+ * Shows description, rating, price, and action buttons
+ */
+
 import { useParams, Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import '../styles/BookDetails.css';
