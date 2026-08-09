@@ -1,3 +1,10 @@
+/**
+ * NotFound Component
+ * 404 Error page for undefined routes
+ * Displays invalid route URL and suggests valid pages
+ * Rendered without Header component
+ */
+
 import { useLocation, Link } from 'react-router-dom';
 import '../styles/NotFound.css';
 
