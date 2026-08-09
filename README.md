@@ -1,3 +1,10 @@
+<!--
+  Online Library System - Complete Documentation
+  Assignment: Full Stack Web Development with React
+  Framework: React 18 + Vite + Redux + React Router
+  Build Tool: Vite for fast development
+-->
+
 # 📚 Online Library System
 
 A modern, feature-rich online library application built with **React 18**, **Vite**, **React Router**, and **Redux**. Browse books by category, view details, add new books, and enjoy a seamless user experience.
