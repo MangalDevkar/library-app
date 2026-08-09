@@ -1,3 +1,10 @@
+/**
+ * Home Component
+ * Landing page with welcome message, book categories, and popular books display
+ * Shows first 6 books as popular recommendations
+ * Includes category grid for easy navigation
+ */
+
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { categories } from '../data/booksData';
