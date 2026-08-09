@@ -1,3 +1,11 @@
+/**
+ * App Component
+ * Main application component with React Router setup
+ * Provides Redux store to all components via Provider
+ * Defines all route configurations
+ */
+
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/store';
